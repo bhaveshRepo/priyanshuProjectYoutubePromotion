@@ -1,0 +1,65 @@
+<ul class="nav navbar-nav col-sm-4 nav-pills" id="nav_link">
+    <li class="pull-right"><a href="#contactus_section">
+      <i class="material-icons top_icon"  >local_phone</i>Contact</a></li>
+    
+    <li class="pull-right"><a href="#price_section">
+      <i class="material-icons top_icon" >
+        account_balance_wallet</i>Pricing</a></li>
+    <li class="pull-right"><a href="#aboutus_section">
+      <i class="material-icons top_icon" >
+      home</i>About us</a></li>
+  </ul>
+
+
+
+
+  <?php
+
+if(isset($_POST['name'])){
+$name = $_POST['name'];
+$to = 'bsuthar713@gmail.com';
+$subject = 'test 1 through php';
+$body = '<html>
+
+<body>
+<h2>Feedback - example.com</h2>
+<hr>
+<p>Name<br>'.$name.'</p>
+</body>
+</html>';
+
+//headers
+$headers = "From: " .$name."\r\n";
+$headers = "MIME-Version: 1.0\r\n";
+$headers = "Content-type: text/html; charset=utf-8;"
+
+
+//send
+
+$success = mail($to, $subject, $body, $headers);
+if($success){
+   echo '<br>';
+   echo 'Thanks for your feedback';
+}else{
+
+    echo 'error';
+}
+}
+?>
+
+
+
+
+<?php
+
+    mail('bsuthar713@gmail.com', $_POST['Name'], $_POST['Number'], $_POST['Email'], $_POST['youtube_url']);
+?>
+
+
+
+
+<h1 style="color: white">Your email has been sent.</h1>
+<a href="Bhavesh/index.html" ><button>Go to Website</button></a>
+
+
+

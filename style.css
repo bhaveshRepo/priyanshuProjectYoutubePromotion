@@ -1,0 +1,516 @@
+html {
+    scroll-behavior: smooth;
+}
+
+#navbar-prop{
+
+overflow: auto;
+background-color: #95420700;
+border:  #954207e0;
+
+
+}
+
+#navbar-prop a{
+
+float: left;
+display: block;
+color: #ffffff;
+text-align: center;
+padding: 15px 15px;
+text-decoration: none;
+font-size: 17px;
+
+}
+
+.navbar-brand{
+  background-image: linear-gradient( rgba(0, 0, 0, 0.699), rgba(0, 0, 0, 0.678)),url("images/bg1_gray.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+border-radius: 3px;
+
+}
+
+.top_icon{
+  float: left; margin-right: 10px;
+  padding: 0px;
+  font-size: 17px;
+}
+
+
+
+#navbar-prop a:hover{
+    background-image: linear-gradient( rgba(0, 0, 0, 0.699), rgba(0, 0, 0, 0.678)),url("images/bg1_gray.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-style: bold;
+}
+
+#navbar-prop a:active{
+  background-image: url("images/bg1_gray.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+    background-color: aqua;
+    color: white;
+}
+
+
+.sticky_button{
+margin: auto;
+ z-index: 1;
+  position: fixed;
+ 
+
+}
+
+
+.sticky {
+  z-index: 1;
+    position: fixed;
+   
+    width: 100%;
+    
+  }
+  
+  .sticky + .content {
+    padding-top: 60px;
+  }
+
+ .center_part{
+   text-align: center;
+   color: whitesmoke;
+ }
+
+.demo2 div{
+  
+    overflow: hidden;
+    position: relative;
+    height: 65px;
+    float: left;
+    padding-top: 10px;
+    margin-top:-10px;
+
+}
+.demo2 li {
+  font-family: Serif;
+  color: #ccc;
+  font-weight: 600;
+  padding: 0 10px;
+  height: 45px;
+  margin-bottom: 45px;
+  display: block;
+}
+
+
+
+.form_enquiry{
+
+
+background: transparent;
+border: 1px solid white;
+color: white;
+border-radius: 20px;
+text-align: center;
+
+}
+
+.form_enquiry::placeholder{
+  color: white;
+  opacity: 1;
+}
+
+
+.flip { animation: flip 10s cubic-bezier(0.23, 1, 0.32, 1.2) infinite; }
+
+@keyframes flip {
+  0% { margin-top: -360px; }
+  5% { margin-top: -270px; }
+  25% { margin-top: -270px; }
+  30% { margin-top: -180px; }
+  50% { margin-top: -180px; }
+  55% { margin-top: -90px; }
+  75% { margin-top: -90px; }
+  80% { margin-top: 0px; }
+  99.99% { margin-top: 0px; }
+  100% { margin-top: -270px; }
+}
+
+
+
+
+
+ .parallax_2{
+
+  background-image: linear-gradient(rgba(0, 0, 0, 0.678), rgba(0, 0, 0, 0.699)),url("images/about_bg.jpg");
+      min-height: 200px;
+      position: relative;
+   text-align: center;
+   background-attachment: fixed;
+   background-position: center;
+  
+   background-repeat: no-repeat;
+   background-size: cover;
+
+  }
+
+  .parallax_1{
+
+    background-image: linear-gradient( rgba(0, 0, 0, 0.699), rgba(0, 0, 0, 0.678)),url("images/bg1.jpg");
+    min-height: 500px;
+    position: relative;
+ text-align: center;
+ background-attachment: fixed;
+ background-position: center;
+
+ background-repeat: no-repeat;
+ background-size: cover;
+
+  }
+
+  #aboutus_section a{
+    text-align: center;
+    font-size: 45px ;
+    color: white;
+ }
+
+  #aboutus_section p{
+margin-top: 60pxs;
+padding: 16px;
+font-size: 20px;
+color: white;
+}
+
+#achieve_heading{
+
+    font-size: 45px;
+    text-align: center;
+    color: white;
+}
+
+
+
+#mybtn{
+
+  display: none;
+  bottom: 20px;
+  right: 20px;
+  position: fixed;
+z-index: 1;
+
+
+
+}
+
+
+.go_click{
+  margin-top: 20px;
+  
+  
+  padding : 10px 40px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 16px;
+  color: white;
+  
+}
+
+.go_click:hover{
+  background-color:transparent;
+  border: 1px solid white;
+}
+
+.link_whatsapp{
+  background-color: rgba(23, 238, 23, 0.658);
+}
+
+.link_call{
+  background-color: rgba(24, 38, 240, 0.637);
+}
+
+
+
+.btn_go{
+margin-top: 20px;
+background-color: #9542079a;
+border: 1px solid white;
+padding : 10px 40px;
+text-align: center;
+display: inline-block;
+cursor: pointer;
+border-radius: 16px;
+color: white;
+
+}
+
+
+.btn_go:hover{
+  border: 1px solid white;
+  background-color:transparent;
+  color: white;
+  
+}
+.public{
+  overflow: hidden;
+  transition-duration: 0.8s;
+  transition-property: transform;
+  transition-delay: 0.2s;
+}
+
+.public:hover{
+
+  -webkit-transform: rotate(360deg);
+}
+
+.parallax_1_min{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.781), rgba(0, 0, 0, 0.76)),url("images/bg1.jpg");
+  min-height: 300px;
+  position: relative;
+text-align: center;
+background-attachment: fixed;
+background-position: center;
+
+background-repeat: no-repeat;
+background-size: cover;
+
+
+}
+
+
+
+
+
+.btn {
+  background-color: #9542079a;  
+    border: 2px solid #9542079a;
+    color: white;
+    padding: 10px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+  }
+  
+  .click:hover {
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+  }
+
+
+
+.promote_container{
+ margin-top: 40px;
+ 
+}
+
+  .promote_container img{
+
+    opacity: 0.7;
+border: 5px solid white;
+border-radius: 10px;
+
+     display: block;
+    margin: auto;
+     width: 60%;
+     height: 60%;
+  }
+
+
+  .achieve_parallax,.about_parallax,.price_options,.form_container,.contact_container{
+    padding: 20px;
+  }
+
+  .achieve_section_div,.together,.together_price,.together_form,.together_contact{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.486), 0 6px 20px 0 rgba(0, 0, 0, 0.37);
+  }
+
+
+
+  .together_price{
+
+    color: white;
+  }
+
+  .together{
+    height: auto;
+  }
+
+  .achieve_box{
+    margin: 10px;
+    color: white;
+    border: 2px solid white;
+  }
+
+  body{
+   background-image: linear-gradient(rgba(0, 0, 0, 0.568), rgba(0, 0, 0, 0.541)),url("images/bg1_gray.jpg");
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+  }
+
+.about_info{
+  margin-top: 20px;
+}
+ 
+
+.price{
+  padding: 5px;
+  border: 1px solid white;
+  border-radius: 10px;
+
+}
+
+.price_row{
+  padding: 20px;
+}
+
+.form_input{
+
+background: transparent;
+border: 1px solid white;
+color: white;
+
+}
+
+.form_input::placeholder{
+  color: white;
+  opacity: 0.7;
+}
+
+
+
+.btn_link{
+  margin: 5px;
+  border-radius: 20px;
+
+padding : 10px 40px;
+text-align: center;
+display: inline-block;
+cursor: pointer;
+border-radius: 16px;
+color: white;
+}
+
+#fb{
+  background-color: rgba(29, 67, 117, 0.548);
+  border: 1px solid rgba(29, 67, 117, 0.548) ;
+}
+#yt{
+  background-color: rgba(168, 24, 24, 0.664);
+  border: 1px solid rgba(168, 24, 24, 0.664) ;
+}
+#sg{
+  background-color:rgba(255, 0, 170, 0.63);
+  border: 1px solid  rgba(255, 0, 170, 0.63);
+}
+
+#li{
+  background-color: rgba(48, 48, 177, 0.836);
+  border: 1px solid rgba(48, 48, 177, 0.836) ;
+}
+
+#fb:hover{
+  background-color: transparent;
+  border: 2px solid rgba(29, 67, 117, 0.548) ;
+}
+#yt:hover{
+  background-color: transparent;
+  border: 2px solid rgba(168, 24, 24, 0.664) ;
+}
+#sg:hover{
+  background-color: transparent;
+  border: 2px solid  rgba(255, 0, 221, 0.644);
+}
+#li:hover{
+  background-color: transparent;
+  border: 2px solid rgba(48, 48, 177, 0.836) ;
+}
+
+
+
+
+
+
+
+
+
+
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgba(73, 49, 18, 0.788);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #fdf5f5;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.699), rgba(0, 0, 0, 0.678)),url("images/bg1_gray.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;  
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.open_btn{
+  background-image: linear-gradient( rgba(0, 0, 0, 0.699), rgba(0, 0, 0, 0.678)),url("images/bg1_gray.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;  
+  padding: 5px 10px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+.open_btn:hover{
+  background-image: none;
+}
+
+.page_btn{
+
+  margin-left: 15px;
+  margin-right: 15px;
+ 
+}
+
